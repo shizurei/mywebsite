@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(to bottom left, #f81a1a, #862cb9, #41dede);
+}
+
+#me {
+    border-radius: 50%;
+}
+
+#me:hover {
+    transform: scaleX(-1);
+}
+
+.everything {
+    height: 100vh;
+}
