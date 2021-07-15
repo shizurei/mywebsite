@@ -21,15 +21,15 @@ body {
 
 .myCard {
     background-color: black;
-    width: 250px;
-    height: 350px;
+    width: 400px;
+    height: 500px;
     padding: 50px;
-    font-size: 1.4rem;
+    text-align: center;
 }
 
 .myImage {
     border-radius: 50%;
-    width: 150px;
+    width: 300px;
 }
 
 .myImage:hover {
