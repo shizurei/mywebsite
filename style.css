@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
 * {
     box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
 }
 
 body {
@@ -8,14 +12,27 @@ body {
     background: linear-gradient(to bottom left, #f81a1a, #862cb9, #41dede);
 }
 
-#me {
-    border-radius: 50%;
-}
-
-#me:hover {
-    transform: scaleX(-1);
-}
-
 .everything {
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.myCard {
+    background-color: black;
+    width: 250px;
+    height: 350px;
+    padding: 50px;
+    font-size: 1.4rem;
+}
+
+.myImage {
+    border-radius: 50%;
+    width: 150px;
+}
+
+.myImage:hover {
+    transform: scaleX(-1);
+    cursor: pointer;
 }
