@@ -17,6 +17,24 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.hoverEffect:hover {
+    background-color: #00000088;
+}
+
+.cardHoverEffect:hover {
+    background-color: #ff000099;
+}
+
+.aboutMe {
+    background-color: black;
+    width: 450px;
+    height: 520px;
+    text-align: center;
+    word-wrap: break-word;
 }
 
 .myCard {
@@ -27,12 +45,21 @@ body {
     text-align: center;
 }
 
+.myWorks {
+    background-color: black;
+    width: 450px;
+    height: 520px;
+    text-align: center;
+    word-wrap: break-word;
+}
+
 .myImage {
     border-radius: 50%;
     width: 300px;
 }
 
 .myImage:hover {
-    transform: scaleX(-1);
     cursor: pointer;
 }
+
+
