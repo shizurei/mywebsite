@@ -53,13 +53,8 @@ body {
     word-wrap: break-word;
 }
 
-.myImage {
+#myPic{
     border-radius: 50%;
     width: 300px;
+    height: 300px;
 }
-
-.myImage:hover {
-    cursor: pointer;
-}
-
-
