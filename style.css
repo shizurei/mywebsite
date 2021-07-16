@@ -26,7 +26,7 @@ body {
 }
 
 .cardHoverEffect:hover {
-    background-color: #ff000099;
+    background-color: #00000099;
 }
 
 .aboutMe {
@@ -35,6 +35,7 @@ body {
     height: 520px;
     text-align: center;
     word-wrap: break-word;
+    padding: 0px 20px;
 }
 
 .myCard {
@@ -51,6 +52,7 @@ body {
     height: 520px;
     text-align: center;
     word-wrap: break-word;
+    padding: 0px 20px;
 }
 
 #myPic{
