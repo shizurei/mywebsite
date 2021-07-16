@@ -55,8 +55,12 @@ body {
     padding: 0px 20px;
 }
 
-#myPic{
+#myPic {
     border-radius: 50%;
     width: 300px;
     height: 300px;
+}
+
+#myPic:hover {
+    cursor: pointer;
 }
