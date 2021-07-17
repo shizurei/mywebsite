@@ -5,6 +5,12 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     color: white;
+    
+}
+
+::selection {
+    color: red;
+    background-color: white;
 }
 
 body {
@@ -17,7 +23,6 @@ body {
     height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
 }
@@ -26,7 +31,8 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 100%;
+    width: 50%;
+    margin: 2% 25%;
     height: 5px;
 }
 
@@ -41,7 +47,7 @@ nav {
     background-color: #41dede;
     font-size: 1.5rem;
     padding: 0px 7px;
-    border-radius: 50px;
+    border-radius: 15px;
     text-decoration: none;
 }
 
@@ -91,4 +97,14 @@ nav {
 
 #myPic:hover {
     cursor: pointer;
+}
+
+.wheel {
+    animation: spin 10s infinite;
+}
+
+@keyframes spin { 
+    10% {
+        transform: rotate(360deg); 
+    } 
 }

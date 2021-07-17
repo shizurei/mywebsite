@@ -4,21 +4,20 @@
 <head>
     <title>Home - Saisab</title>
     <link rel="stylesheet" href="styles.css">
-    
+    <script src="script.js" defer></script>
 </head>
 
 <body>
     <div class="everything">
 
         <nav>
-            <div>
-                <a class="bluebtn" href="index.html">Home</a>
-                <a class="links" href="pages/gallery.html">Gallery</a>
-                <a class="links" href="pages/contact.html">Contact</a>
-            </div>
+            <a class="bluebtn" href="index.html">Home</a>
+            <a class="links" href="pages/works.html">Works</a>
+            <a class="links" href="pages/gallery.html">Gallery</a>
+            <a class="links" href="pages/contact.html">Contact</a>
         </nav>    
         
-        <div class="aboutMe hoverEffect" onmouseover="lookLeft()" onmouseout="lookLeftStop()">
+        <div class="aboutMe hoverEffect" onmouseover="look('left')" onmouseout="look('off')">
             <p style="font-size: 1.25rem;">
                 <span style="font-size: 2.3rem;">About Me</span><br><br>
                 My name is Saisab Gajurel. I'm a Child of Justice™, Student of Experience, Teacher of Wisdom, Father  of Genius, Inventor of Patience, Advocator of Philosophy, Follower of Comedy, User of Memes, Destroyer of Screechy Sounds, and Developer of this Website. My hobbies are advocating Justice™, destroying screechy sounds, and following comedy. I was born and raised in Nepal. I was a gangsta at age 2. Please respect me.<br><br> - The Breaker of Lines™
@@ -26,21 +25,21 @@
         </div>
 
         <div class="myCard cardHoverEffect">
-            <img id="myPic" onclick="pokeAlert()" src="images/cardNormal.jpg" onmouseover="bigChild()" onmouseout="smallChild()">
+            <img id="myPic" onclick="poke()" src="images/cardNormal.jpg">
             <p><br><span style="font-size: 2.5rem;font-family: 'Josefin Sans', sans-serif;">Saisab Gajurel,</span><br>
             <spam style="font-size: 1.8rem;font-family: 'Josefin Sans', sans-serif;">Child of Justice™</span></p>
         </div>
 
-        <div class="myWorks hoverEffect" onmouseover="lookRight()" onmouseout="lookRightStop()">
-            <p style="font-size: 1.6rem;">
-                <span style="font-size: 2.3rem;">My Works</span><br><br>
-                Believe it or not, I have actually worked on other things aside from this masterpiece website. You can see all my works in full size on the 'Gallery' tab, but I'll talk about some of them here.<br><br><br><span style="font-size: 3.2rem;">...</span>
+        <div class="myWorks hoverEffect" onmouseover="look('right')" onmouseout="look('off')">
+            <p style="font-size: 1.45rem;">
+                <span style="font-size: 2rem;">My Works</span><br><br>
+                Believe it or not, I have actually worked on other things aside from this masterpiece website. You can see all my works on the 'Works' tab.<br>-----------------------<br> 
+                <span style="font-size: 2rem;">Gallery</span><br><br>
+                The 'Gallery' tab is there for pictures of your lord Saisab Gajurel, Child of Justice™.
             </p>
         </div>
 
     </div>
-
-    <script src="script.js"></script>
 </body>
 
 </html>
