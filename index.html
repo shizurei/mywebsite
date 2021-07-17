@@ -3,15 +3,23 @@
 
 <head>
     <title>Home - Saisab</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    
 </head>
 
 <body>
     <div class="everything">
 
+        <nav>
+            <div>
+                <a class="bluebtn" href="index.html">Home</a>
+                <a class="links" href="pages/gallery.html">Gallery</a>
+                <a class="links" href="pages/contact.html">Contact</a>
+            </div>
+        </nav>    
+        
         <div class="aboutMe hoverEffect" onmouseover="lookLeft()" onmouseout="lookLeftStop()">
-            <p style="font-size: 1.6rem;">
+            <p style="font-size: 1.25rem;">
                 <span style="font-size: 2.3rem;">About Me</span><br><br>
                 My name is Saisab Gajurel. I'm a Child of Justice™, Student of Experience, Teacher of Wisdom, Father  of Genius, Inventor of Patience, Advocator of Philosophy, Follower of Comedy, User of Memes, Destroyer of Screechy Sounds, and Developer of this Website. My hobbies are advocating Justice™, destroying screechy sounds, and following comedy. I was born and raised in Nepal. I was a gangsta at age 2. Please respect me.<br><br> - The Breaker of Lines™
             </p>
@@ -19,8 +27,8 @@
 
         <div class="myCard cardHoverEffect">
             <img id="myPic" onclick="pokeAlert()" src="images/cardNormal.jpg" onmouseover="bigChild()" onmouseout="smallChild()">
-            <p><br><span style="font-size: 2.5rem;">Saisab Gajurel</span><br><br>
-            <spam style="font-size: 2rem;">Child of Justice™</span></p>
+            <p><br><span style="font-size: 2.5rem;font-family: 'Josefin Sans', sans-serif;">Saisab Gajurel,</span><br>
+            <spam style="font-size: 1.8rem;font-family: 'Josefin Sans', sans-serif;">Child of Justice™</span></p>
         </div>
 
         <div class="myWorks hoverEffect" onmouseover="lookRight()" onmouseout="lookRightStop()">
@@ -31,6 +39,8 @@
         </div>
 
     </div>
+
+    <script src="script.js"></script>
 </body>
 
 </html>

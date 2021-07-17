@@ -10,9 +10,9 @@ function lookLeftStop() {
     myPic.setAttribute("src", "images/cardNormal.jpg");
 }
 
-function bigChild() {
-    myPic.setAttribute("src", "images/cardBig.jpg");
-}
+// function bigChild() {
+//     myPic.setAttribute("src", "images/cardBig.jpg");
+// }
 
 function smallChild() {
     myPic.setAttribute("src", "images/cardNormal.jpg");
